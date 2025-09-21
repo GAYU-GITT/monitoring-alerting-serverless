@@ -1,4 +1,4 @@
-# monitoring-alerting-serverless
+## monitoring-alerting-serverless
 A serverless architecture used for monitoring the CI/CD and alerting
 
 This project provisions an AWS infrastructure using **CDK** that sends AWS CodePipeline status notifications to a **Google Chat space** via webhook.
