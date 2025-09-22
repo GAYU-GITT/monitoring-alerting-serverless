@@ -2,8 +2,6 @@
 
 const cdk = require('aws-cdk-lib');
 const { PipelineResourceStack } = require('../lib/pipeline-notif-cdk-stack');
-const { EnvironmentType, TagName } = require('@unifo/cdk-commons');
-const { SnsNotificationStack } = require('../lib/sns-notification-stack')
 
 const app = new cdk.App();
 

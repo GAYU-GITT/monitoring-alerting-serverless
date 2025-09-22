@@ -80,7 +80,7 @@ class PipelineResourceStack extends Stack {
     const pipelineChatNotificationLambdaFn = new lambda.Function(this, 'PipelineChatNotificationLambdaFn', {
       functionName: 'PipelineNotificationLambdaFn',
       runtime: lambda.Runtime.NODEJS_16_X,
-      code: lambda.Code.fromAsset(path.join(__dirname, '../lambda/pipeline-notification')),
+      code: lambda.Code.fromAsset(path.join(__dirname, '../lambda')),
       timeout: Duration.minutes(1),
       role: pipelineNotificationLambdaRole,
       handler: 'index.handler',

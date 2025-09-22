@@ -8,4 +8,4 @@ It integrates **SNS → Lambda → Google Chat** to notify your team whenever a 
 
 Here’s the high-level workflow of the notification system:
 
-![Architecture Diagram](<serverless-monitoring.drawio (1).png>)
+![Architecture Workflow](<serverless-monitoring.drawio (2).png>)
