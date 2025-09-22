@@ -9,6 +9,13 @@ Developed an automated AWS CI/CD pipeline to build, test, and deploy Dockerized 
 * Configured **CloudWatch Logs** for centralized logging and monitoring of build and deployment stages.
 * Wrote **AWS CDK** to provision all pipeline resources programmatically, reducing manual setup time.
 
+## Example Notification
+
+When a pipeline stage fails, the Lambda function sends a notification to Google Chat in the following format:
+
+The MyPipeline has FAILED in Build stage at 2025-09-22T12:34:56Z in Production Environment. Reason: Docker build failed due to missing dependencies.
+
+
 ## 🏗️ Architecture
 
 Here’s the high-level workflow of the notification system:
